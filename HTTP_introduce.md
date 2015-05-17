@@ -11,8 +11,8 @@ files: /js/demo.js,/css/moon.css
 
 [slide]
 
-## 3.1 HTTP 协议初探
-###用户在地址栏中输入URL，到页面最终被加载完成。将会经历以下几个过程。
+## HTTP 协议初探
+用户在地址栏中输入URL，到页面最终被加载完成。将会经历以下几个过程。
 1. Parse URL.
 2. Init REQUEST MESSAGE.
 3. Send request message to server.[dns resolve, tcp three way handshake]
@@ -30,14 +30,13 @@ Resource Indentifier, URI).
   URL:
   URN:
   *URL, URN是URI的两种不同的实现形式。*
-[slide]
 
 [slide]
 ## URL 的构成
 
 [slide]
 
-## request message && response message
+## REQUEST message && RESPONSE message
 
 [slide]
 
