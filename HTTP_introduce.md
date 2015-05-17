@@ -11,6 +11,13 @@ files: /js/demo.js,/css/moon.css
 
 [slide]
 
+## Outline
+1. HTTP 协议初探
+2. HTTP 协议重要的组成部分
+3. HTTP/2 简介 
+
+[slide]
+
 ## HTTP 协议初探
 用户在地址栏中输入URL，到页面最终被加载完成。将会经历以下几个过程。
 
