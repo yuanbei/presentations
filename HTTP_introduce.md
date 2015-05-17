@@ -17,7 +17,7 @@ files: /js/demo.js,/css/moon.css
 1. Parse URL.
 2. Init REQUEST MESSAGE.
 3. Send request message to server.[dns resolve, tcp three way handshake]
-4. Recieve first RESPONSE MESSAGE from server.
+4. Recieve the first RESPONSE MESSAGE from server.
 5. Parse html as mainframe.
 6. Send subresource requests which parsed from step 5.
 7. Build DOM,CSSOM,BOM.
@@ -30,7 +30,7 @@ files: /js/demo.js,/css/moon.css
 Resource Indentifier, URI).
   URL:
   URN:
-  *URL, URN是URI的两种不同的实现形式。*
+  **URL, URN是URI的两种不同的实现形式。**
 
 [slide]
 ## URL 的构成
@@ -59,7 +59,7 @@ Resource Indentifier, URI).
 [slide]
 
 ## 连接管理
-1. Origin: <protocol ,scheme, port>
+1. Origin (protocol ,scheme, port>
 2. Chromium  Socket Manager &&  Socket pool
 3. 并行连接
 4. 持久化连接 keep alive
@@ -83,12 +83,16 @@ Resource Indentifier, URI).
 5. 请求优先级
 6. 首部压缩
 7. Server Push
+8. SSL 是否是必须的？
+9. ALPN
 
 [slide]
 
 ## 参考资料
-1. HTTP 权威指南
-2. [High Perfermence Browser Network](http://chimera.labs.oreilly.com/books/1230000000545/index.html)
+1. RFC 
+2. HTTP 权威指南
+3. [High Perfermance Browser Network](http://chimera.labs.oreilly.com/books/1230000000545/index.html)
+4. Chromium Network
 
 [slide]
 
