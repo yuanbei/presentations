@@ -108,7 +108,7 @@ files: /js/demo.js,/css/moon.css
 
 ## HTTP/2
 1. History && Spdy
-2. HTTP/2协议要解决的主要问题
+2. HTTP/2协议要解决的主要问题（为什么会有HTTP/2)
 3. 协议介绍（图解)
 4. 连接复用(one Origin one connect)
 5. 请求优先级
@@ -116,6 +116,7 @@ files: /js/demo.js,/css/moon.css
 7. Server Push
 8. SSL 是否是必须的？
 9. ALPN
+10. HTTP/2的实现
 
 [slide]
 
@@ -124,6 +125,7 @@ files: /js/demo.js,/css/moon.css
 2. [HTTP 权威指南](http://www.ituring.com.cn/book/844)
 3. [High Perfermance Browser Network](http://chimera.labs.oreilly.com/books/1230000000545/index.html)
 4. Chromium Network
+5. HTTP/2 相关的参考（集合）
 
 [slide]
 
