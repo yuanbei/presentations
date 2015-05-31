@@ -60,6 +60,14 @@ files: /js/demo.js,/css/moon.css
 [slide]
 
 ## REQUEST message && RESPONSE message
+请求报文和响应报文的格式基本相同，由如下三个部分组成
+1. start line
+2. headers
+3. body
+
+[slide]
+
+
 
 [slide]
 
