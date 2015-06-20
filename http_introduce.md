@@ -18,8 +18,24 @@ files: /js/demo.js,/css/moon.css
 
 [slide]
 
+## What is HTTP Protocol?
+
+>  The Hypertext Transfer Protocol (HTTP) is an application-level
+   protocol for distributed, collaborative, hypermedia information
+   systems. It is a generic, stateless, protocol which can be used for
+   many tasks beyond its use for hypertext, such as name servers and
+   distributed object management systems, through extension of its
+   request methods, error codes and headers [47]. A feature of HTTP is
+   the typing and negotiation of data representation, allowing systems
+   to be built independently of the data being transferred.
+
+   [rfc2616](https://www.rfc-editor.org/rfc/rfc2616.txt)
+
+[slide]
+
 ## HTTP 协议初探
-用户在地址栏中输入URL，到页面最终被加载完成。将会经历以下几个过程。
+用户在地址栏中输入URL，到页面最终被加载完成。
+将会经历以下几个过程。
 
 1. Parse URL.
 2. Init REQUEST MESSAGE.
@@ -33,41 +49,61 @@ files: /js/demo.js,/css/moon.css
 [slide]
 
 ## URI, URL, URN
-  URI: URI是以某种统一的（标准化的）方式标识资源的简单字符串,英文全称为（Uniform Resource Indentifier, URI).
-
-  URL: 统一资源定位符（或称统一资源定位器/定位地址、URL地址)
+1. URI: URI是以某种统一的（标准化的）方式标识资源的简单字符串
+2. 英文全称为（Uniform Resource Indentifier, URI).
+3. URL: 统一资源定位符（或称统一资源定位器/定位地址、URL地址)
 
  ![URL 是怎样与浏览器、客户端、服务器以及服务器文件系统中的位置进行关联的如下图](http://www.ituring.com.cn/figures/2013/HTTP_The%20Definitive%20Guide/06.d02z.01.png)
 
-  URN: 统一资源名称（URN）是统一资源标识（URI）的历史名字，它使用urn:作为URI scheme。
+[slide]
 
-       urn:<NID>:<NSS>
+  URN: 统一资源名称（URN）是统一资源标识（URI）的历史名字
+  它使用urn:作为URI scheme。
+
+       urn:NID:NSS
 
        urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66
 
   **URL, URN是URI的两种不同的实现形式。**
 
-
 [slide]
-## [URL 的构成](http://en.wikipedia.org/wiki/Uniform_resource_locator "url components")
+
+## [URL 的构成]
+
  **scheme://[user:password@]domain:port/path?query_string#fragment_id**
 
 1. scheme: ftp,http,https,file
 2. domain: IP(IPV4,IPV6), domain(like uc123.com)
 3. query_string: ?first_name=John&last_name=Doe
-4. fragment_id: 表明了一个页面的某一个部分,例如：http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#_brief_history_of_spdy_and_http_2
+4. fragment_id: 表明了一个页面的某一个部分
+
+   http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#_brief_history_of_spdy_and_http_2
 
 [slide]
 
 ## REQUEST message && RESPONSE message
+
 请求报文和响应报文的格式基本相同，由如下三个部分组成
-1. start line
-2. headers
-3. body
+
+1. Start line
+2. Headers
+3. Body
 
 [slide]
 
+**Requset Method -- Request URL -- Client Version**
 
+![request message](http://blog.codenginx.org/images/request_message.png)
+
+[slide]
+
+**Server Version -- Status Code -- Reason Phrase**
+
+![response message](http://blog.codenginx.org/images/response_message.png)
+
+[slide]
+
+## HTTP  Method
 
 [slide]
 
